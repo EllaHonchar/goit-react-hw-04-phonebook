@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.input {
+  flex: 1;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-style: italic;
+  &:hover {
+    border-color: #0f6292;
+  }
+}
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #f6e6c2;
+  color: #0f6292;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid #f6e6c2;
+  border-radius: 4px;
+  padding: 10px 20px;
+  &:hover {
+    border-color: #0f6292;
+  }
+}

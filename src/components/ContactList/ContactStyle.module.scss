@@ -1,0 +1,32 @@
+.item {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 100%;
+  list-style: none;
+  text-align: left;
+}
+.number {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 20px;
+  color: #00337c;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5%;
+  background-color: #f6e6c2;
+  color: #0f6292;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #0f6292;
+    color: #f6e6c2;
+  }
+}
