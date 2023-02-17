@@ -3,7 +3,6 @@ import { ContactItem } from './ContactItem';
 import s from '../ContactList/ContactStyle.module.scss';
 
 export function ContactList({ contacts, onDeleteContact }) {
-  console.log(contacts);
   return (
     <ul className={s.list}>
       {contacts.map(({ id, name, number }) => (
